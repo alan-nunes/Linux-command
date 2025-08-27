@@ -4,13 +4,15 @@
 
 
 1. `free`
-O comando free exibe informações sobre a memória total, usada, livre, buffers/cache, etc. Você pode usar a opção **-h** para ver os valores em um formato mais legível (como MB ou GB).
-free -h
- 
+O comando free exibe informações sobre a memória total, usada, livre, buffers/cache, etc. Você pode usar a opção `-h` para ver os valores em um formato mais legível (como MB ou GB).
+* free -h
+
+```
 Isso irá mostrar algo como:
              total        usado        livre      compartilhado   buffers   cache   disponível
 Mem:           16G          5G           8G            1.2G       200M    3.5G        9.5G
 Swap:           2G          0G           2G
+```
  
 • Mem: Mostra a memória RAM.
 • Swap: Mostra a memória de swap (caso esteja configurada).
