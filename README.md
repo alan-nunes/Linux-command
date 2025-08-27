@@ -3,7 +3,7 @@
 ## Verificar Memória 
 
 
-1. free
+1. `free`
 O comando free exibe informações sobre a memória total, usada, livre, buffers/cache, etc. Você pode usar a opção **-h** para ver os valores em um formato mais legível (como MB ou GB).
 free -h
  
